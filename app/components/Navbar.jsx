@@ -5,30 +5,30 @@ import { assets } from '../../assets/assets'
 const Navbar = () => {
   return (
     <>
-        <nav>
+        <nav className="fixed top-0 left-0 right-0 z-50">
             <div className="container mx-auto px-3 md:px-12">
                 <div className="flex items-center justify-between">
                     <div>
                         <Image src={assets.logo} 
-                        className="w-28 cursor-pointer" 
+                        className="w-20 cursor-pointer" 
                         alt="" />
                     </div>
                     <div>
                         <ul className="flex space-x-6">
                             <li>
-                                <a href="#" className="text-[#111]">Home</a>
+                                <a href="#" className="font-ovo text-[#111]">Home</a>
                             </li>
                             <li>
-                                <a href="#" className="text-[#111]">About</a>
+                                <a href="#" className="font-ovo text-[#111]">About</a>
                             </li>
                             <li>
-                                <a href="#" className="text-[#111]">Services</a>
+                                <a href="#" className="font-ovo text-[#111]">Services</a>
                             </li>
                             <li>
-                                <a href="#" className="text-[#111]">Portfolio</a>
+                                <a href="#" className="font-ovo text-[#111]">Portfolio</a>
                             </li>
                             <li>
-                                <a href="#" className="text-[#111]">Contact</a>
+                                <a href="#" className="font-ovo text-[#111]">Contact</a>
                             </li>
                         </ul>
                     </div>

@@ -3,5 +3,14 @@
 @tailwind utilities;
 
 * {
-  font-family: Outfit;
+  font-family: var(--font-outfit), sans-serif;
+}
+
+/* Ensure font utilities work properly */
+.font-ovo {
+  font-family: var(--font-ovo) !important;
+}
+
+.font-outfit {
+  font-family: var(--font-outfit) !important;
 }
