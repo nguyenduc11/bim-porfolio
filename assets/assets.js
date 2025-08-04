@@ -78,25 +78,33 @@ export const assets = {
 
 export const workData = [
     {
-        title: 'Frontend project',
-        description: 'Web Design',
-        bgImage: '/work-1.png',
+        bgImage: '/images/work1.jpg',
+        title: 'Commercial Complex BIM Implementation',
+        category: 'Structural BIM',
+        description: 'Complete structural BIM model development for a 30-story commercial complex, including detailed documentation and clash detection.',
+        technologies: ['Revit', 'Navisworks', 'BIM 360', 'Dynamo']
     },
     {
-        title: 'Geo based app',
-        description: 'Mobile App',
-        bgImage: '/work-2.png',
+        bgImage: '/images/work2.jpg',
+        title: 'Healthcare Facility Coordination',
+        category: 'MEP Coordination',
+        description: 'Multi-discipline coordination and clash detection for a major healthcare facility, ensuring seamless integration of structural and MEP systems.',
+        technologies: ['Revit', 'Navisworks', 'BIM Track', 'AutoCAD']
     },
     {
-        title: 'Photography site',
-        description: 'Web Design',
-        bgImage: '/work-3.png',
+        bgImage: '/images/work3.jpg',
+        title: 'Automated Steel Detailing',
+        category: 'BIM Automation',
+        description: 'Development of Dynamo scripts for automated steel connection detailing and shop drawing production, reducing modeling time by 60%.',
+        technologies: ['Revit', 'Dynamo', 'Advance Steel', 'Python']
     },
     {
-        title: 'UI/UX designing',
-        description: 'UI/UX Design',
-        bgImage: '/work-4.png',
-    },
+        bgImage: '/images/work4.jpg',
+        title: '4D Construction Sequencing',
+        category: 'Construction Planning',
+        description: 'Creation of 4D BIM model for construction sequencing and scheduling optimization of a mixed-use development project.',
+        technologies: ['Navisworks', 'MS Project', 'Revit', 'Synchro']
+    }
 ]
 
 export const serviceData = [
@@ -107,11 +115,15 @@ export const serviceData = [
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Tech in Computer Science' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'BIM Software', description: 'Revit, Navisworks, BIM 360, AutoCAD' },
+    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Specialization', description: 'Structural BIM Modeling, Dynamo Scripting' },
+    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Experience', description: 'Over 50+ BIM Projects Delivered' }
 ];
 
 export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
+    '/images/revit.png',
+    '/images/navisworks.png',
+    '/images/dynamo.png',
+    '/images/autocad.png',
+    '/images/bim360.png'
 ];

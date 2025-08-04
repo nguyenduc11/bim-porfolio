@@ -10,14 +10,15 @@ const Portfolio = () => {
         {/* Section Header */}
         <div className="text-center mb-16">
           <p className="text-gray-600 font-ovo text-lg mb-4 tracking-wide uppercase">
-            My Work
+            Featured Projects
           </p>
           <h2 className="font-ovo text-gray-900 text-4xl md:text-5xl lg:text-6xl font-bold mb-6">
-            Portfolio
+            BIM Portfolio
           </h2>
           <p className="text-gray-600 text-lg md:text-xl max-w-3xl mx-auto leading-relaxed">
-            Here are some of my recent projects that showcase my skills in web development, 
-            design, and problem-solving. Each project represents a unique challenge and solution.
+            Explore my portfolio of structural BIM projects showcasing expertise in Autodesk Revit, 
+            Dynamo scripting, and Navisworks. Each project demonstrates innovative solutions in 
+            Building Information Modeling.
           </p>
         </div>
 
@@ -43,15 +44,21 @@ const Portfolio = () => {
               <div className="p-6 md:p-8">
                 <div className="mb-4">
                   <span className="inline-block px-3 py-1 text-sm font-medium text-blue-600 bg-blue-50 rounded-full mb-3">
-                    {project.description}
+                    {project.category}
                   </span>
                   <h3 className="font-ovo text-gray-900 text-xl md:text-2xl font-bold mb-3 group-hover:text-gray-700 transition-colors duration-300">
                     {project.title}
                   </h3>
                   <p className="text-gray-600 text-base leading-relaxed mb-6">
-                    A comprehensive project showcasing modern web development practices, 
-                    responsive design, and user-centered approach to create engaging digital experiences.
+                    {project.description}
                   </p>
+                  <div className="flex flex-wrap gap-2 mb-6">
+                    {project.technologies.map((tech, techIndex) => (
+                      <span key={techIndex} className="px-2 py-1 text-sm bg-gray-100 text-gray-700 rounded">
+                        {tech}
+                      </span>
+                    ))}
+                  </div>
                 </div>
 
                 {/* Project Links */}
@@ -78,11 +85,11 @@ const Portfolio = () => {
         <div className="text-center mt-16">
           <div className="bg-gradient-to-r from-gray-50 to-gray-100 rounded-2xl p-8 md:p-12">
             <h3 className="font-ovo text-gray-900 text-2xl md:text-3xl font-bold mb-4">
-              Interested in Working Together?
+              Need BIM Expertise for Your Project?
             </h3>
             <p className="text-gray-600 text-lg mb-8 max-w-2xl mx-auto">
-              I&apos;m always excited to take on new challenges and create amazing digital experiences. 
-              Let&apos;s discuss your project and bring your ideas to life.
+              I specialize in structural BIM modeling, automation, and coordination. 
+              Let&apos;s discuss how we can optimize your construction project with advanced BIM solutions.
             </p>
             <button className="group relative inline-flex items-center justify-center px-8 py-4 font-medium text-white transition-all duration-300 bg-gradient-to-r from-gray-900 to-gray-700 rounded-xl hover:from-gray-800 hover:to-gray-600 hover:shadow-xl hover:scale-105">
               <span className="relative z-10 font-ovo flex items-center gap-2">
