@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Link from 'next/link'
 import { assets } from '../../assets/assets'
 
 const Navbar = () => {
@@ -16,19 +17,34 @@ const Navbar = () => {
                     <div>
                         <ul className="flex space-x-6">
                             <li>
-                                <a href="#" className="font-ovo text-[#111]">Home</a>
+                                <Link href="/" className="font-ovo text-[#111] hover:text-gray-600 transition-colors duration-200 relative group">
+                                    Home
+                                    <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gray-800 transition-all duration-200 group-hover:w-full"></span>
+                                </Link>
                             </li>
                             <li>
-                                <a href="#" className="font-ovo text-[#111]">About</a>
+                                <Link href="/about" className="font-ovo text-[#111] hover:text-gray-600 transition-colors duration-200 relative group">
+                                    About
+                                    <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gray-800 transition-all duration-200 group-hover:w-full"></span>
+                                </Link>
                             </li>
                             <li>
-                                <a href="#" className="font-ovo text-[#111]">Services</a>
+                                <Link href="/services" className="font-ovo text-[#111] hover:text-gray-600 transition-colors duration-200 relative group">
+                                    Services
+                                    <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gray-800 transition-all duration-200 group-hover:w-full"></span>
+                                </Link>
                             </li>
                             <li>
-                                <a href="#" className="font-ovo text-[#111]">Portfolio</a>
+                                <Link href="/portfolio" className="font-ovo text-[#111] hover:text-gray-600 transition-colors duration-200 relative group">
+                                    Portfolio
+                                    <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gray-800 transition-all duration-200 group-hover:w-full"></span>
+                                </Link>
                             </li>
                             <li>
-                                <a href="#" className="font-ovo text-[#111]">Contact</a>
+                                <Link href="/contact" className="font-ovo text-[#111] hover:text-gray-600 transition-colors duration-200 relative group">
+                                    Contact
+                                    <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gray-800 transition-all duration-200 group-hover:w-full"></span>
+                                </Link>
                             </li>
                         </ul>
                     </div>
