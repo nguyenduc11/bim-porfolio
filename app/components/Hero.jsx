@@ -13,12 +13,13 @@ const Hero = () => {
               Hi, I'm <span className="text-gray-900 font-semibold">Duc Nguyen</span>
             </h1>
             <h2 className="text-xl md:text-2xl text-gray-600 mb-6">
-              Full Stack Developer specializing in modern web technologies
+              Structural BIM Modeller & Digital Construction Specialist
             </h2>
             <p className="text-gray-600 mb-8 max-w-2xl">
-              I craft robust and scalable web applications using Next.js, React, and Node.js. 
-              With a passion for clean code and user-centric design, I transform ideas into 
-              seamless digital experiences.
+              I specialize in creating detailed 3D building models and implementing BIM workflows 
+              using Autodesk Revit, Dynamo, and Navisworks. With expertise in parametric modeling 
+              and clash detection, I help transform complex architectural designs into precise, 
+              constructible models.
             </p>
             <div className="flex flex-col sm:flex-row items-center gap-4 justify-center md:justify-start">
               <Link href="/contact">
