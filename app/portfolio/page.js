@@ -81,8 +81,8 @@ const Portfolio = () => {
               Interested in Working Together?
             </h3>
             <p className="text-gray-600 text-lg mb-8 max-w-2xl mx-auto">
-              I'm always excited to take on new challenges and create amazing digital experiences. 
-              Let's discuss your project and bring your ideas to life.
+              I&apos;m always excited to take on new challenges and create amazing digital experiences. 
+              Let&apos;s discuss your project and bring your ideas to life.
             </p>
             <button className="group relative inline-flex items-center justify-center px-8 py-4 font-medium text-white transition-all duration-300 bg-gradient-to-r from-gray-900 to-gray-700 rounded-xl hover:from-gray-800 hover:to-gray-600 hover:shadow-xl hover:scale-105">
               <span className="relative z-10 font-ovo flex items-center gap-2">

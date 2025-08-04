@@ -37,8 +37,8 @@ const Contact = () => {
             Contact Me
           </h2>
           <p className="text-gray-600 text-lg md:text-xl max-w-3xl mx-auto leading-relaxed">
-            I'm always interested in new opportunities and exciting projects. 
-            Whether you have a question or just want to say hi, I'll try my best to get back to you!
+            I&apos;m always interested in new opportunities and exciting projects. 
+            Whether you have a question or just want to say hi, I&apos;ll try my best to get back to you!
           </p>
         </div>
 
@@ -47,7 +47,7 @@ const Contact = () => {
           {/* Contact Information */}
           <div>
             <h3 className="font-ovo text-gray-900 text-2xl md:text-3xl font-bold mb-8">
-              Let's Connect
+              Let&apos;s Connect
             </h3>
             
             <div className="space-y-6 mb-8">
