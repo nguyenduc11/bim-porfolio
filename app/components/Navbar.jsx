@@ -1,12 +1,13 @@
 import React from 'react'
-import Link from 'next/link'
+import Link from "next/link";
+import Image from "next/image";
 
 const navigation = [
   { name: 'Home', href: '/' },
-  { name: 'About', href: '/about' },
-  { name: 'Services', href: '/services' },
+  // { name: 'About', href: '/about' },
+  // { name: 'Services', href: '/services' },
   { name: 'Skills', href: '/skills' },
-  { name: 'Portfolio', href: '/portfolio' },
+  // { name: 'Portfolio', href: '/portfolio' },
   { name: 'Contact', href: '/contact' },
 ]
 
@@ -19,7 +20,14 @@ const Navbar = () => {
             href="/" 
             className="text-xl font-semibold text-gray-800"
           >
-            Portfolio
+            <Image 
+              src="/logo.png" 
+              alt="Logo" 
+              width={1800} 
+              height={600} 
+              className="w-auto h-16" 
+              priority 
+            />
           </Link>
           <ul className="hidden md:flex items-center space-x-8">
             {navigation.map((item) => (

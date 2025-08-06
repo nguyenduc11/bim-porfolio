@@ -7,19 +7,19 @@ const Contact = () => {
     {
       icon: assets.mail_icon,
       title: "Email",
-      value: "duc.nguyen@example.com",
-      link: "mailto:duc.nguyen@example.com"
+      value: "nguyenduc11@gmail.com",
+      link: "mailto:nguyenduc11@gmail.com"
     },
     {
       icon: assets.mail_icon,
       title: "Phone",
-      value: "+84 123 456 789",
-      link: "tel:+84123456789"
+      value: "+84 987 764 370",
+      link: "tel:+84987764370"
     },
     {
       icon: assets.mail_icon,
       title: "Location",
-      value: "Ho Chi Minh City, Vietnam",
+      value: "Hoang Mai District, Hanoi, Vietnam",
       link: "#"
     }
   ];
