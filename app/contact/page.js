@@ -11,7 +11,7 @@ const Contact = () => {
       link: "mailto:nguyenduc11@gmail.com"
     },
     {
-      icon: assets.mail_icon,
+      icon: assets.mobile_icon,
       title: "Phone",
       value: "+84 987 764 370",
       link: "tel:+84987764370"

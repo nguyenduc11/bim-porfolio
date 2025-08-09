@@ -4,10 +4,10 @@ import Image from "next/image";
 
 const navigation = [
   { name: 'Home', href: '/' },
-  // { name: 'About', href: '/about' },
-  // { name: 'Services', href: '/services' },
+  { name: 'About', href: '/about' },
+  { name: 'Services', href: '/services' },
   { name: 'Skills', href: '/skills' },
-  // { name: 'Portfolio', href: '/portfolio' },
+  { name: 'Portfolio', href: '/portfolio' },
   { name: 'Contact', href: '/contact' },
 ]
 
@@ -21,10 +21,10 @@ const Navbar = () => {
             className="text-xl font-semibold text-gray-800"
           >
             <Image 
-              src="/logo.png" 
+              src="/logo.svg" 
               alt="Logo" 
-              width={1800} 
-              height={600} 
+              width={120} 
+              height={120} 
               className="w-auto h-16" 
               priority 
             />
