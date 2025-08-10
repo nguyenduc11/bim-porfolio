@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import { getIconComponent } from './iconUtils'
 
 export default function PersonalInfo({ data }) {
   return (
@@ -20,12 +21,15 @@ export default function PersonalInfo({ data }) {
             <h2 className="text-2xl text-gray-700 mb-6">{data.title}</h2>
             <p className="text-gray-600 mb-6">{data.summary}</p>
             <div className="flex flex-wrap gap-4">
-              {data.contacts.map((contact, index) => (
-                <div key={index} className="flex items-center gap-2">
-                  <span dangerouslySetInnerHTML={{ __html: contact.icon }} className="w-5 h-5 text-gray-700" />
-                  <span className="text-gray-700">{contact.value}</span>
-                </div>
-              ))}
+              {data.contacts.map((contact, index) => {
+                const IconComponent = getIconComponent(contact.icon);
+                return (
+                  <div key={index} className="flex items-center gap-2">
+                    {IconComponent && <IconComponent className="w-5 h-5 text-gray-700" />}
+                    <span className="text-gray-700">{contact.value}</span>
+                  </div>
+                );
+              })}
             </div>
           </div>
         </div>
