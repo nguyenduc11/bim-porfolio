@@ -1,7 +1,6 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import PersonalInfo from '../components/about/PersonalInfo'
-import Location from '../components/about/Location'
 import Education from '../components/about/Education'
 import Experience from '../components/about/Experience'
 import Interests from '../components/about/Interests'
@@ -19,8 +18,7 @@ export default function About() {
     <>
       <Navbar />
       <main className="pt-20 bg-gray-50">
-        <PersonalInfo data={personalInfo} />
-        <Location data={locationData} />
+        <PersonalInfo data={personalInfo} locationData={locationData} />
         <Education data={educationData} />
         <Experience data={experienceData} />
         <Interests data={interestsData} />
