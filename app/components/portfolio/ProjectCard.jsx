@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import { HiExternalLink, HiCode } from 'react-icons/hi'
 
 export default function ProjectCard({ project }) {
   return (
@@ -37,8 +38,9 @@ export default function ProjectCard({ project }) {
             href={project.demoUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center justify-center px-4 py-2 border border-gray-300 rounded-lg text-sm font-medium text-gray-700 bg-white hover:bg-gray-50 transition-colors duration-200"
+            className="inline-flex items-center justify-center gap-2 px-4 py-2 border border-gray-300 rounded-lg text-sm font-medium text-gray-700 bg-white hover:bg-gray-50 transition-colors duration-200"
           >
+            <HiExternalLink className="w-4 h-4" />
             View Project
           </a>
           {project.codeUrl && (
@@ -46,8 +48,9 @@ export default function ProjectCard({ project }) {
               href={project.codeUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center justify-center px-4 py-2 border border-gray-300 rounded-lg text-sm font-medium text-gray-700 bg-white hover:bg-gray-50 transition-colors duration-200"
+              className="inline-flex items-center justify-center gap-2 px-4 py-2 border border-gray-300 rounded-lg text-sm font-medium text-gray-700 bg-white hover:bg-gray-50 transition-colors duration-200"
             >
+              <HiCode className="w-4 h-4" />
               View Code
             </a>
           )}

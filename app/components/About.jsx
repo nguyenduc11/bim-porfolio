@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import { assets } from '../../assets/assets'
+import { HiArrowRight } from 'react-icons/hi'
 
 const About = () => {
   const personalInfo = [
@@ -73,9 +74,7 @@ const About = () => {
               <div className="absolute inset-0.5 bg-gradient-to-r from-gray-900 to-gray-700 rounded-xl group-hover:from-gray-800 group-hover:to-gray-600 transition-all duration-300"></div>
               <span className="relative z-10 font-ovo flex items-center gap-2 text-lg">
                 Let's Work Together
-                <svg className="w-5 h-5 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                </svg>
+                <HiArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
               </span>
             </button>
           </div>

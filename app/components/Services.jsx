@@ -1,8 +1,11 @@
 import React from 'react'
+import { HiCube, HiCode, HiShieldCheck, HiClipboardList } from 'react-icons/hi'
+import { BiRightArrowAlt } from 'react-icons/bi'
 
 const Services = () => {
   const services = [
     {
+      icon: HiCube,
       title: "BIM Modeling & Documentation",
       description: "Expert creation of detailed 3D structural models using Autodesk Revit, including comprehensive documentation and drawing production.",
       features: [
@@ -13,6 +16,7 @@ const Services = () => {
       ]
     },
     {
+      icon: HiCode,
       title: "Dynamo Scripting",
       description: "Development of custom automation scripts for Revit using Dynamo, optimizing workflows and increasing productivity.",
       features: [
@@ -23,6 +27,7 @@ const Services = () => {
       ]
     },
     {
+      icon: HiShieldCheck,
       title: "Clash Detection & Coordination",
       description: "Comprehensive clash detection and resolution using Navisworks, ensuring seamless integration between structural and MEP systems.",
       features: [
@@ -33,6 +38,7 @@ const Services = () => {
       ]
     },
     {
+      icon: HiClipboardList,
       title: "BIM Project Management",
       description: "End-to-end BIM project management, from setup to delivery, ensuring compliance with BIM standards and client requirements.",
       features: [
@@ -56,29 +62,35 @@ const Services = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {services.map((service, index) => (
-            <div 
-              key={index}
-              className="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition-all duration-300"
-            >
-              <h3 className="text-xl font-ovo font-bold text-gray-900 mb-4">
-                {service.title}
-              </h3>
-              <p className="text-gray-600 mb-6">
-                {service.description}
-              </p>
-              <div className="space-y-3">
-                {service.features.map((feature, featureIndex) => (
-                  <div key={featureIndex} className="flex items-center gap-2">
-                    <svg className="w-5 h-5 text-gray-900" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-                    </svg>
-                    <span className="text-gray-700">{feature}</span>
+          {services.map((service, index) => {
+            const IconComponent = service.icon;
+            return (
+              <div 
+                key={index}
+                className="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition-all duration-300 group"
+              >
+                <div className="flex items-center gap-4 mb-4">
+                  <div className="w-12 h-12 bg-gradient-to-br from-gray-900 to-gray-700 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                    <IconComponent className="w-6 h-6 text-white" />
                   </div>
-                ))}
+                  <h3 className="text-xl font-ovo font-bold text-gray-900">
+                    {service.title}
+                  </h3>
+                </div>
+                <p className="text-gray-600 mb-6">
+                  {service.description}
+                </p>
+                <div className="space-y-3">
+                  {service.features.map((feature, featureIndex) => (
+                    <div key={featureIndex} className="flex items-center gap-2">
+                      <BiRightArrowAlt className="w-5 h-5 text-gray-900" />
+                      <span className="text-gray-700">{feature}</span>
+                    </div>
+                  ))}
+                </div>
               </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
 
         <div className="text-center mt-16">
