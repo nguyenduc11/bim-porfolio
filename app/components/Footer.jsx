@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
+import { HiMail, HiPhone } from 'react-icons/hi'
 
 const navigation = [
   { name: 'Home', href: '/' },
@@ -34,9 +35,9 @@ export default function Footer() {
   return (
     <footer className="bg-gray-900 text-gray-300">
       <div className="container mx-auto px-4 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Brand */}
-          <div className="col-span-1 md:col-span-2">
+          <div className="col-span-1 md:col-span-1">
             <Link href="/" className="text-xl font-semibold text-white">
               BIM Portfolio
             </Link>
@@ -49,12 +50,12 @@ export default function Footer() {
           {/* Quick Links */}
           <div>
             <h3 className="text-white font-semibold mb-4">Quick Links</h3>
-            <ul className="space-y-2">
+            <ul className="grid grid-cols-2 gap-x-4 gap-y-2">
               {navigation.map((item) => (
                 <li key={item.href}>
                   <Link 
                     href={item.href}
-                    className="text-gray-400 hover:text-white transition-colors duration-200"
+                    className="text-gray-400 hover:text-white transition-colors duration-200 text-sm"
                   >
                     {item.name}
                   </Link>
@@ -85,8 +86,25 @@ export default function Footer() {
         </div>
 
         {/* Copyright */}
-        <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400">
-          <p>© {currentYear} BIM Portfolio. All rights reserved.</p>
+        <div className="border-t border-gray-800 mt-8 pt-8">
+          <div className="flex flex-col md:flex-row justify-center items-center gap-4">
+            <div className="flex items-center gap-6 text-gray-400 text-sm">
+              <a 
+                href="mailto:nguyenduc11@gmail.com" 
+                className="flex items-center gap-2 hover:text-white transition-colors duration-200"
+              >
+                <HiMail className="w-4 h-4" />
+                nguyenduc11@gmail.com
+              </a>
+              <a 
+                href="tel:+84987764370" 
+                className="flex items-center gap-2 hover:text-white transition-colors duration-200"
+              >
+                <HiPhone className="w-4 h-4" />
+                +84 987 764 370
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </footer>
