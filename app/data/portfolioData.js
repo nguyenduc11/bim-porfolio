@@ -5,7 +5,7 @@ export const portfolioData = {
     {
       title: "Commercial Complex BIM Implementation",
       category: "Structural BIM",
-      description: "Complete BIM implementation for a 40-story commercial complex, including structural modeling, coordination, and clash detection.",
+      description: "Complete BIM implementation for a 24-story commercial complex, including structural modeling, coordination, and clash detection.",
       image: "/images/projects/project01.webp",
       technologies: ["Revit", "Navisworks", "BIM 360", "Dynamo"],
       demoUrl: "#",
@@ -21,20 +21,20 @@ export const portfolioData = {
       codeUrl: null
     },
     {
-      title: "Automated Steel Detailing",
-      category: "BIM Automation",
-      description: "Development of custom Dynamo scripts for automated steel detailing and documentation, reducing modeling time by 60%.",
+      title: "30-Storey Reinforced Concrete Tower",
+      category: "Structural BIM",
+      description: "Complete structural BIM modeling for a 30-storey reinforced concrete commercial tower.",
       image: "/images/projects/project03.webp",
-      technologies: ["Revit", "Dynamo", "Advance Steel", "Python"],
+      technologies: ["Revit", "AutoCAD", "Navisworks", "BIM 360"],
       demoUrl: "#",
-      codeUrl: "https://github.com/username/steel-automation"
+      codeUrl: null
     },
     {
-      title: "4D Construction Sequencing",
-      category: "4D BIM",
-      description: "Creation of 4D BIM model for construction sequencing and scheduling optimization of a mixed-use development project.",
+      title: "15-Storey Residential Complex",
+      category: "Structural BIM",
+      description: "Complete structural BIM modeling for a 15-storey reinforced concrete residential complex.",
       image: "/images/projects/project04.webp",
-      technologies: ["Navisworks", "MS Project", "Revit", "Synchro"],
+      technologies: ["Revit", "Navisworks"],
       demoUrl: "#",
       codeUrl: null
     }
