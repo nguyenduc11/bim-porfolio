@@ -11,9 +11,9 @@ export default function Services() {
         <section className="py-16">
           <div className="container mx-auto px-4">
             <div className="text-center mb-12">
-              <h1 className="text-4xl font-bold text-gray-900 mb-4">BIM Services</h1>
+              <h1 className="text-4xl font-bold text-gray-900 mb-4">BIM Experiences</h1>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-                Comprehensive Building Information Modeling solutions for modern construction projects, 
+                BIM Experiences for modern construction projects, 
                 focusing on efficiency, accuracy, and collaboration.
               </p>
             </div>
