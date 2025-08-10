@@ -18,56 +18,63 @@ export const personalInfo = {
 export const locationData = {
   icon: '<svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" /><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" /></svg>',
   address: [
-    '123 Business District',
-    'Silicon Valley, CA 94025',
-    'United States'
+    'Tam Trinh Street',
+    'Hoang Mai District',
+    'Ha Noi'
   ]
 }
 
 export const educationData = [
   {
     degree: 'Master of Engineering - Structural Engineering',
-    school: 'Stanford University',
-    period: '2012 - 2014',
-    highlights: [
-      'Specialized in Building Information Modeling',
-      'Research focus on BIM implementation in structural design',
-      'GPA: 3.9/4.0'
-    ]
+    school: 'Hanoi University of Civil Engineering',
+    period: '2013 - 2015',
   },
   {
     degree: 'Bachelor of Science - Civil Engineering',
-    school: 'MIT',
-    period: '2008 - 2012',
-    highlights: [
-      'Minor in Computer Science',
-      'Graduated with Honors',
-      'President of Engineering Society'
-    ]
+    school: 'Hanoi University of Civil Engineering',
+    period: '2006 - 2011',
   }
 ]
 
 export const experienceData = [
   {
-    title: 'Senior BIM Manager',
-    company: 'Global Construction Corp',
-    period: '2018 - Present',
+    title: 'Structural BIM Coordinator',
+    company: 'P&T CONSULTANTS',
+    period: '2019 - Present',
     achievements: [
-      'Led BIM implementation for $500M worth of construction projects',
-      'Managed a team of 15 BIM modelers and coordinators',
-      'Developed automated workflows reducing modeling time by 40%',
-      'Implemented clash detection protocols resulting in 90% reduction in field conflicts'
+      'Create 3d BIM structural models and detailed drawings, schedules, and bills of materials (BOMs) for various types of projects.',
+      'Collaborate with other BIM Modelers, Architects and Project Manager to create a comprehensive digital model of projects.',
+      'Ensured that all documentation was up-to-date before releasing it to the client or general contractor.',
     ]
   },
   {
-    title: 'BIM Coordinator',
-    company: 'Engineering Solutions Inc',
-    period: '2014 - 2018',
+    title: 'Structural Engineer',
+    company: 'THAM & WONG ASIA',
+    period: '2018 - 2019',
     achievements: [
-      'Coordinated BIM models for healthcare and commercial projects',
-      'Developed custom Dynamo scripts for automation',
-      'Trained junior staff in Revit and BIM best practices',
-      'Achieved 30% improvement in project delivery time'
+      'Participate in design residential projects following TCVN standards.',
+      'Analyze buildings using ETABS and perform structuralcalculations',
+      'Design structural elements with: PROKON, Excel spreadsheets',
+    ]
+  },
+  {
+    title: 'Project Engineer',
+    company: 'VINATA INTERNATIONAL',
+    period: '2015 - 2018',
+    achievements: [
+      'Manage parts of construction projects.',
+      'Perform regular inspections of the construction site.',
+      'Ensure that the construction site is safe and meets the required standards.',
+    ]
+  },
+  {
+    title: 'BIM Modeller',
+    company: 'ISL ENGINEERING AND LAND SERVICES',
+    period: '2011 - 2015',
+    achievements: [
+      'Create 3D BIM models of structural systems follows firm and project document standards.',
+      'Generate drawings, pdfs, dwgs or images from model formats',
     ]
   }
 ]

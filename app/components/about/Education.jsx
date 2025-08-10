@@ -9,11 +9,6 @@ export default function Education({ data }) {
               <h3 className="text-xl font-semibold text-gray-900 mb-2">{edu.degree}</h3>
               <p className="text-gray-700 mb-2">{edu.school}</p>
               <p className="text-gray-600">{edu.period}</p>
-              <ul className="mt-4 list-disc list-inside text-gray-600">
-                {edu.highlights.map((highlight, idx) => (
-                  <li key={idx}>{highlight}</li>
-                ))}
-              </ul>
             </div>
           ))}
         </div>
