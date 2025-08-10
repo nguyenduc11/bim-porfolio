@@ -1,5 +1,5 @@
 export const personalInfo = {
-  profileImage: '/images/profile.jpg',
+  profileImage: '/images/profile.png',
   name: 'Nguyễn Ngọc Đức',
   title: 'Structural BIM Specialist',
   summary: 'Experienced BIM professional with over 8 years of expertise in structural modeling and coordination. Specialized in creating detailed 3D models, implementing BIM workflows, and optimizing project delivery through advanced automation techniques.',
