@@ -40,8 +40,8 @@ const Navbar = () => {
             <Image 
               src="/logo.svg" 
               alt="Logo" 
-              width={120} 
-              height={120} 
+              width={200} 
+              height={50} 
               className="w-auto h-16" 
               priority 
             />

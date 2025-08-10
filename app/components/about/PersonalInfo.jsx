@@ -26,8 +26,9 @@ export default function PersonalInfo({ data, locationData }) {
                 <Image 
                   src={data.profileImage} 
                   alt={`${data.name} - Profile Picture`}
-                  fill
-                  className="object-cover rounded-xl"
+                  width={300}
+                  height={300}
+                  className="w-full h-full object-contain rounded-xl"
                   priority
                 />
               </div>
