@@ -6,7 +6,7 @@ export const portfolioData = {
       title: "Commercial Complex BIM Implementation",
       category: "Structural BIM",
       description: "Complete BIM implementation for a 40-story commercial complex, including structural modeling, coordination, and clash detection.",
-      image: "/images/projects/commercial-complex.jpg",
+      image: "/images/projects/project01.webp",
       technologies: ["Revit", "Navisworks", "BIM 360", "Dynamo"],
       demoUrl: "#",
       codeUrl: null
@@ -15,7 +15,7 @@ export const portfolioData = {
       title: "Healthcare Facility Coordination",
       category: "BIM Coordination",
       description: "Multi-discipline BIM coordination for a state-of-the-art healthcare facility, ensuring clash-free construction and optimal MEP integration.",
-      image: "/images/projects/healthcare-facility.jpg",
+      image: "/images/projects/project02.webp",
       technologies: ["Revit", "Navisworks", "BIM 360", "AutoCAD"],
       demoUrl: "#",
       codeUrl: null
@@ -24,7 +24,7 @@ export const portfolioData = {
       title: "Automated Steel Detailing",
       category: "BIM Automation",
       description: "Development of custom Dynamo scripts for automated steel detailing and documentation, reducing modeling time by 60%.",
-      image: "/images/projects/steel-detailing.jpg",
+      image: "/images/projects/project03.webp",
       technologies: ["Revit", "Dynamo", "Advance Steel", "Python"],
       demoUrl: "#",
       codeUrl: "https://github.com/username/steel-automation"
@@ -33,7 +33,7 @@ export const portfolioData = {
       title: "4D Construction Sequencing",
       category: "4D BIM",
       description: "Creation of 4D BIM model for construction sequencing and scheduling optimization of a mixed-use development project.",
-      image: "/images/projects/4d-sequencing.jpg",
+      image: "/images/projects/project04.webp",
       technologies: ["Navisworks", "MS Project", "Revit", "Synchro"],
       demoUrl: "#",
       codeUrl: null

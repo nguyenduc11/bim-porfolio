@@ -3,13 +3,15 @@ import { HiExternalLink, HiCode } from 'react-icons/hi'
 
 export default function ProjectCard({ project }) {
   return (
-    <div className="group relative bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2">
-      <div className="relative h-64 w-full">
+    <div className="group relative bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-2 max-w-4xl mx-auto">
+      <div className="relative w-full aspect-[3/2] overflow-hidden">
         <Image
           src={project.image}
           alt={project.title}
-          fill
-          className="object-cover"
+          width={1200}
+          height={800}
+          className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+          priority={true}
         />
       </div>
       <div className="p-6">
