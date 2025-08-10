@@ -13,12 +13,12 @@ export const skillsData = {
         },
         {
           name: "Navisworks Manage",
-          level: 90,
+          level: 80,
           description: "Clash detection, 4D simulation, and coordination"
         },
         {
           name: "AutoCAD",
-          level: 85,
+          level: 95,
           description: "2D drafting and documentation"
         },
         {
@@ -48,9 +48,9 @@ export const skillsData = {
           description: "Revit plugin development"
         },
         {
-          name: "Visual Basic",
-          level: 70,
-          description: "Legacy automation scripts"
+          name: "Javascript",
+          level: 80,
+          description: "Web development"
         }
       ]
     },
@@ -86,17 +86,17 @@ export const skillsData = {
       skills: [
         {
           name: "ISO 19650",
-          level: 90,
+          level: 85,
           description: "International BIM standards implementation"
         },
         {
           name: "BS 1192",
-          level: 85,
+          level: 80,
           description: "British Standards for collaborative BIM"
         },
         {
           name: "LOD Specification",
-          level: 95,
+          level: 85,
           description: "Level of Development standards"
         },
         {
