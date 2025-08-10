@@ -1,6 +1,6 @@
 import Navbar from "../components/Navbar";
 import { HiMail, HiPhone, HiLocationMarker, HiPaperAirplane } from 'react-icons/hi';
-import { FaGithub, FaLinkedin, FaTwitter, FaDribbble } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaWhatsapp } from 'react-icons/fa';
 
 const Contact = () => {
   const contactInfo = [
@@ -27,8 +27,7 @@ const Contact = () => {
   const socialLinks = [
     { icon: FaGithub, name: "GitHub", url: "#" },
     { icon: FaLinkedin, name: "LinkedIn", url: "#" },
-    { icon: FaTwitter, name: "Twitter", url: "#" },
-    { icon: FaDribbble, name: "Dribbble", url: "#" }
+    { icon: FaWhatsapp, name: "WhatsApp", url: "#" }
   ];
 
   return (
@@ -163,7 +162,7 @@ const Contact = () => {
                   Message
                 </label>
                 <textarea 
-                  rows="5"
+                  rows="2"
                   className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gray-500 focus:border-transparent transition-all duration-200 resize-none"
                   placeholder="Tell me about your project or just say hello!"
                 ></textarea>
