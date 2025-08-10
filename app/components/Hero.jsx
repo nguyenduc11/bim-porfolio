@@ -7,7 +7,7 @@ const Hero = () => {
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center">
           {/* Main Heading */}
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-ovo text-gray-900 mb-6 leading-tight">
+          <h1 className="text-5xl md:text-7xl lg:text-8xl font-ovo text-gray-900 mb-6 leading-tight mt-12">
             Hi, I'm{' '}
             <span className="bg-gradient-to-r from-gray-900 to-gray-700 bg-clip-text text-transparent font-bold">
               Duc Nguyen
@@ -43,12 +43,12 @@ const Hero = () => {
           </div>
           
           {/* Scroll Indicator */}
-          <div className="mt-16 animate-bounce">
+          {/* <div className="mt-16 animate-bounce">
             <div className="w-6 h-10 border-2 border-gray-400 rounded-full mx-auto flex justify-center">
               <div className="w-1 h-3 bg-gray-400 rounded-full mt-2 animate-pulse"></div>
             </div>
             <p className="text-gray-400 text-sm mt-2">Scroll to explore</p>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

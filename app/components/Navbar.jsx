@@ -1,4 +1,5 @@
-import React from 'react'
+'use client'
+import React, { useState, useEffect } from 'react'
 import Link from "next/link";
 import Image from "next/image";
 
@@ -12,8 +13,24 @@ const navigation = [
 ]
 
 const Navbar = () => {
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollTop = window.scrollY;
+      setIsScrolled(scrollTop > 50);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-sm shadow-sm">
+    <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+      isScrolled 
+        ? 'bg-white/70 backdrop-blur-md shadow-lg border-b border-gray-200/50' 
+        : 'bg-white/90 backdrop-blur-sm shadow-sm'
+    }`}>
       <div className="container mx-auto px-4 py-4">
         <div className="flex items-center justify-between">
           <Link 
