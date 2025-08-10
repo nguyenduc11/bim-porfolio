@@ -46,21 +46,26 @@ const Navbar = () => {
               priority 
             />
           </Link>
-          <ul className="hidden md:flex items-center space-x-8">
+          <ul className="hidden md:flex items-center space-x-2">
             {navigation.map((item) => (
               <li key={item.href}>
                 <Link 
                   href={item.href}
-                  className="text-gray-600 hover:text-gray-900 transition-colors duration-200"
+                  className="group relative px-4 py-2 text-gray-600 hover:text-white transition-all duration-300 rounded-full hover:bg-gray-700/90 backdrop-blur-sm"
                 >
-                  {item.name}
+                  <span className="relative z-10">{item.name}</span>
+                  <div className="absolute inset-0 bg-gradient-to-r from-gray-700 to-gray-800 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300 -z-10"></div>
                 </Link>
               </li>
             ))}
           </ul>
-          <button className="px-5 py-2 bg-gray-900 text-white rounded-lg hover:bg-gray-800 transition-colors duration-200">
-            Hire me
-          </button>
+          <Link href="/contact">
+            <button className="group relative px-6 py-2.5 bg-gray-900 text-white rounded-full hover:bg-gray-800 transition-all duration-300 transform hover:scale-105 hover:shadow-lg overflow-hidden">
+              <span className="relative z-10 font-medium">Hire me</span>
+              <div className="absolute inset-0 bg-gradient-to-r from-gray-800 to-gray-600 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+              <div className="absolute inset-0 rounded-full bg-white/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300 animate-pulse"></div>
+            </button>
+          </Link>
         </div>
       </div>
     </nav>
