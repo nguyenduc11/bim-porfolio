@@ -3,7 +3,7 @@ export const portfolioData = {
   description: "Showcasing innovative Building Information Modeling projects and solutions that demonstrate expertise in structural modeling, coordination, and automation.",
   projects: [
     {
-      title: "Commercial Complex BIM Implementation",
+      title: "Long Thanh Airport Air Traffic Control",
       category: "Structural BIM",
       description: "Complete BIM implementation for a 24-story commercial complex, including structural modeling, coordination, and clash detection.",
       image: "/images/projects/project01/main.webp",
@@ -11,14 +11,16 @@ export const portfolioData = {
         "/images/projects/project01/main.webp",
         "/images/projects/project01/detail-1.webp",
         "/images/projects/project01/detail-2.webp",
-        "/images/projects/project01/detail-3.webp"
+        "/images/projects/project01/detail-3.webp",
+        "/images/projects/project01/detail-4.webp",
+        "/images/projects/project01/detail-5.webp",
       ],
-      technologies: ["Revit", "Navisworks", "BIM 360", "Dynamo"],
-      demoUrl: "https://autode.sk/49a0FaM",
+      technologies: ["Revit", "Navisworks", "BIM 360", "AutoCAD"],
+      demoUrl: "https://autode.sk/49Gl6xq",
       codeUrl: null
     },
     {
-      title: "Healthcare Facility Coordination",
+      title: "Co Loa",
       category: "BIM Coordination",
       description: "Multi-discipline BIM coordination for a state-of-the-art healthcare facility, ensuring clash-free construction and optimal MEP integration.",
       image: "/images/projects/project02/main.webp",
@@ -28,7 +30,7 @@ export const portfolioData = {
         "/images/projects/project02/detail-2.webp"
       ],
       technologies: ["Revit", "Navisworks", "BIM 360", "AutoCAD"],
-      demoUrl: "#",
+      demoUrl: "https://autode.sk/3LldcA7",
       codeUrl: null
     },
     {
