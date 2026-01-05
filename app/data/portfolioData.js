@@ -14,7 +14,7 @@ export const portfolioData = {
         "/images/projects/project01/detail-3.webp"
       ],
       technologies: ["Revit", "Navisworks", "BIM 360", "Dynamo"],
-      demoUrl: "#",
+      demoUrl: "https://viewer.autodesk.com/id/YOUR_MODEL_ID_HERE",
       codeUrl: null
     },
     {
