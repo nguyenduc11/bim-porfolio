@@ -6,7 +6,13 @@ export const portfolioData = {
       title: "Commercial Complex BIM Implementation",
       category: "Structural BIM",
       description: "Complete BIM implementation for a 24-story commercial complex, including structural modeling, coordination, and clash detection.",
-      image: "/images/projects/project01.webp",
+      image: "/images/projects/project01/main.webp",
+      images: [
+        "/images/projects/project01/main.webp",
+        "/images/projects/project01/detail-1.webp",
+        "/images/projects/project01/detail-2.webp",
+        "/images/projects/project01/detail-3.webp"
+      ],
       technologies: ["Revit", "Navisworks", "BIM 360", "Dynamo"],
       demoUrl: "#",
       codeUrl: null
@@ -15,7 +21,12 @@ export const portfolioData = {
       title: "Healthcare Facility Coordination",
       category: "BIM Coordination",
       description: "Multi-discipline BIM coordination for a state-of-the-art healthcare facility, ensuring clash-free construction and optimal MEP integration.",
-      image: "/images/projects/project02.webp",
+      image: "/images/projects/project02/main.webp",
+      images: [
+        "/images/projects/project02/main.webp",
+        "/images/projects/project02/detail-1.webp",
+        "/images/projects/project02/detail-2.webp"
+      ],
       technologies: ["Revit", "Navisworks", "BIM 360", "AutoCAD"],
       demoUrl: "#",
       codeUrl: null
@@ -24,7 +35,14 @@ export const portfolioData = {
       title: "30-Storey Reinforced Concrete Tower",
       category: "Structural BIM",
       description: "Complete structural BIM modeling for a 30-storey reinforced concrete commercial tower.",
-      image: "/images/projects/project03.webp",
+      image: "/images/projects/project03/main.webp",
+      images: [
+        "/images/projects/project03/main.webp",
+        "/images/projects/project03/detail-1.webp",
+        "/images/projects/project03/detail-2.webp",
+        "/images/projects/project03/detail-3.webp",
+        "/images/projects/project03/detail-4.webp"
+      ],
       technologies: ["Revit", "AutoCAD", "Navisworks", "BIM 360"],
       demoUrl: "#",
       codeUrl: null
@@ -33,7 +51,12 @@ export const portfolioData = {
       title: "15-Storey Residential Complex",
       category: "Structural BIM",
       description: "Complete structural BIM modeling for a 15-storey reinforced concrete residential complex.",
-      image: "/images/projects/project04.webp",
+      image: "/images/projects/project04/main.webp",
+      images: [
+        "/images/projects/project04/main.webp",
+        "/images/projects/project04/detail-1.webp",
+        "/images/projects/project04/detail-2.webp"
+      ],
       technologies: ["Revit", "Navisworks"],
       demoUrl: "#",
       codeUrl: null
