@@ -13,7 +13,7 @@ export const portfolioData = {
         "/images/projects/project01/detail-2.webp",
         "/images/projects/project01/detail-3.webp",
         "/images/projects/project01/detail-4.webp",
-        "/images/projects/project01/detail-5.webp",
+        "/images/projects/project01/detail-5.webp"
       ],
       technologies: ["Revit", "Navisworks", "BIM 360", "AutoCAD"],
       demoUrl: "https://autode.sk/49Gl6xq",
@@ -31,7 +31,7 @@ export const portfolioData = {
         "/images/projects/project02/detail-3.webp",
         "/images/projects/project02/detail-4.webp",
         "/images/projects/project02/detail-5.webp",
-        "/images/projects/project02/detail-6.webp",
+        "/images/projects/project02/detail-6.webp"
       ],
       technologies: ["Revit", "Navisworks", "Autodesk Advance Steel", "AutoCAD"],
       demoUrl: "https://autode.sk/3LldcA7",
@@ -73,7 +73,7 @@ export const portfolioData = {
       demoUrl: "https://autode.sk/4jsiiHn",
       codeUrl: null
     },
-     {
+    {
       title: "Low-Rise Timber Housing Development – Canada",
       category: "Residential / Low-Rise Housing",
       description: "This project focuses on the development of low-rise residential housing utilizing timber-based construction systems for the Canadian market. Designed in compliance with Canadian building codes and sustainability standards, the project emphasizes efficient structural performance, constructability, and environmental responsibility. Timber construction was strategically adopted to reduce carbon footprint, optimize construction speed, and support sustainable housing solutions.",
@@ -91,7 +91,7 @@ export const portfolioData = {
       demoUrl: "https://autode.sk/4q9qOOg",
       codeUrl: null
     },
-        {
+    {
       title: "Light Gauge Steel Residential Development – Australia",
       category: "Residential / Low-Rise Housing",
       description: "This project involves the development of low-rise residential housing utilizing Light Gauge Steel (LGS) construction systems for the Australian market. Light Gauge Steel was selected for its durability, dimensional stability, and suitability for prefabricated and modular construction methods.",
@@ -109,7 +109,7 @@ export const portfolioData = {
       demoUrl: "https://autode.sk/49a0FaM",
       codeUrl: null
     },
-         {
+    {
       title: "3D Rebar Modeling & Detailing",
       category: "BIM Detailing",
       description: "This work showcases advanced rebar detailing and reinforcement modeling capabilities using Autodesk Revit. The scope includes accurate modeling of reinforced concrete elements such as beams, columns, and foundations in accordance with design specifications and international detailing standards.",

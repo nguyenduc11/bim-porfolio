@@ -35,7 +35,7 @@ export const skillsData = {
     name: "Vertex BD",
     level: 75,
     description: "Timber and prefabricated structure detailing with manufacturing-level accuracy"
-  }
+  },
         {
           name: "BIM 360",
           level: 85,
