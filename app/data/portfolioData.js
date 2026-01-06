@@ -70,7 +70,7 @@ export const portfolioData = {
         "/images/projects/project04/detail-6.webp"
       ],
       technologies: ["Revit", "Navisworks", "BIM360", "AutoCAD"],
-      demoUrl: "https://autode.sk/3YVBjbR",
+      demoUrl: "https://autode.sk/4jsiiHn",
       codeUrl: null
     },
      {

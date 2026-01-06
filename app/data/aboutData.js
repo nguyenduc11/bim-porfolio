@@ -18,9 +18,9 @@ export const personalInfo = {
 export const locationData = {
   icon: 'HiLocationMarker',
   address: [
-    'Nguyen Lam Street',
-    '10th District',
-    'Ho Chi Minh City'
+    'Den Lu Street',
+    'Hoang Mai District',
+    'Hanoi City'
   ]
 }
 
