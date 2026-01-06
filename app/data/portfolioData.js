@@ -4,7 +4,7 @@ export const portfolioData = {
   projects: [
     {
       title: "Long Thanh Airport Air Traffic Control",
-      category: "Structural BIM",
+      category: "Airport Facility",
       description: "Complete BIM implementation for a 24-story commercial complex, including structural modeling, coordination, and clash detection.",
       image: "/images/projects/project01/main.webp",
       images: [
@@ -27,14 +27,18 @@ export const portfolioData = {
       images: [
         "/images/projects/project02/main.webp",
         "/images/projects/project02/detail-1.webp",
-        "/images/projects/project02/detail-2.webp"
+        "/images/projects/project02/detail-2.webp",
+        "/images/projects/project02/detail-3.webp",
+        "/images/projects/project02/detail-4.webp",
+        "/images/projects/project02/detail-5.webp",
+        "/images/projects/project02/detail-6.webp",
       ],
       technologies: ["Revit", "Navisworks", "BIM 360", "AutoCAD"],
       demoUrl: "https://autode.sk/3LldcA7",
       codeUrl: null
     },
     {
-      title: "30-Storey Reinforced Concrete Tower",
+      title: "Dai An",
       category: "Structural BIM",
       description: "Complete structural BIM modeling for a 30-storey reinforced concrete commercial tower.",
       image: "/images/projects/project03/main.webp",
@@ -43,24 +47,30 @@ export const portfolioData = {
         "/images/projects/project03/detail-1.webp",
         "/images/projects/project03/detail-2.webp",
         "/images/projects/project03/detail-3.webp",
-        "/images/projects/project03/detail-4.webp"
+        "/images/projects/project03/detail-4.webp",
+        "/images/projects/project03/detail-5.webp",
+        "/images/projects/project03/detail-6.webp"
       ],
       technologies: ["Revit", "AutoCAD", "Navisworks", "BIM 360"],
-      demoUrl: "#",
+      demoUrl: "https://autode.sk/3YVBjbR",
       codeUrl: null
     },
     {
-      title: "15-Storey Residential Complex",
+      title: "Bukit Timah Link",
       category: "Structural BIM",
       description: "Complete structural BIM modeling for a 15-storey reinforced concrete residential complex.",
       image: "/images/projects/project04/main.webp",
       images: [
         "/images/projects/project04/main.webp",
         "/images/projects/project04/detail-1.webp",
-        "/images/projects/project04/detail-2.webp"
+        "/images/projects/project04/detail-2.webp",
+        "/images/projects/project04/detail-3.webp",
+        "/images/projects/project04/detail-4.webp",
+        "/images/projects/project04/detail-5.webp",
+        "/images/projects/project04/detail-6.webp"
       ],
       technologies: ["Revit", "Navisworks"],
-      demoUrl: "#",
+      demoUrl: "https://autode.sk/4q9o2sk",
       codeUrl: null
     }
   ],
