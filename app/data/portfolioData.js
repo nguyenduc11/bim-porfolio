@@ -92,9 +92,9 @@ export const portfolioData = {
       codeUrl: null
     },
     {
-      title: "Light Gauge Steel Residential Development – Australia",
+      title: "Conceptual Light Gauge Steel (LGS) House",
       category: "Residential / Low-Rise Housing",
-      description: "This project involves the development of low-rise residential housing utilizing Light Gauge Steel (LGS) construction systems for the Australian market. Light Gauge Steel was selected for its durability, dimensional stability, and suitability for prefabricated and modular construction methods.",
+      description: "Conceptual project showcasing low-rise Light Gauge Steel (LGS) housing modeled in Autodesk Revit.",
       image: "/images/projects/project06/main.webp",
       images: [
         "/images/projects/project06/main.webp",
