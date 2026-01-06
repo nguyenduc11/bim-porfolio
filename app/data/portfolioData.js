@@ -70,7 +70,7 @@ export const portfolioData = {
         "/images/projects/project04/detail-6.webp"
       ],
       technologies: ["Revit", "Navisworks"],
-      demoUrl: "https://autode.sk/4q9o2sk",
+      demoUrl: "https://autode.sk/3YVBjbR",
       codeUrl: null
     },
      {
