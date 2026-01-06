@@ -72,6 +72,60 @@ export const portfolioData = {
       technologies: ["Revit", "Navisworks"],
       demoUrl: "https://autode.sk/4q9o2sk",
       codeUrl: null
+    },
+     {
+      title: "Wood House Residential",
+      category: "Structural BIM",
+      description: "Complete structural BIM modeling for a 15-storey reinforced concrete residential complex.",
+      image: "/images/projects/project04/main.webp",
+      images: [
+        "/images/projects/project04/main.webp",
+        "/images/projects/project04/detail-1.webp",
+        "/images/projects/project04/detail-2.webp",
+        "/images/projects/project04/detail-3.webp",
+        "/images/projects/project04/detail-4.webp",
+        "/images/projects/project04/detail-5.webp",
+        "/images/projects/project04/detail-6.webp"
+      ],
+      technologies: ["Revit", "Navisworks"],
+      demoUrl: "https://autode.sk/4q9qOOg",
+      codeUrl: null
+    },
+        {
+      title: "Light House",
+      category: "Structural BIM",
+      description: "Complete structural BIM modeling for a 15-storey reinforced concrete residential complex.",
+      image: "/images/projects/project04/main.webp",
+      images: [
+        "/images/projects/project04/main.webp",
+        "/images/projects/project04/detail-1.webp",
+        "/images/projects/project04/detail-2.webp",
+        "/images/projects/project04/detail-3.webp",
+        "/images/projects/project04/detail-4.webp",
+        "/images/projects/project04/detail-5.webp",
+        "/images/projects/project04/detail-6.webp"
+      ],
+      technologies: ["Revit", "Navisworks"],
+      demoUrl: "https://autode.sk/49a0FaM",
+      codeUrl: null
+    },
+         {
+      title: "Concrete Detail",
+      category: "Structural BIM",
+      description: "Complete structural BIM modeling for a 15-storey reinforced concrete residential complex.",
+      image: "/images/projects/project04/main.webp",
+      images: [
+        "/images/projects/project04/main.webp",
+        "/images/projects/project04/detail-1.webp",
+        "/images/projects/project04/detail-2.webp",
+        "/images/projects/project04/detail-3.webp",
+        "/images/projects/project04/detail-4.webp",
+        "/images/projects/project04/detail-5.webp",
+        "/images/projects/project04/detail-6.webp"
+      ],
+      technologies: ["Revit", "Navisworks"],
+      demoUrl: "https://autode.sk/4q9qOOg",
+      codeUrl: null
     }
   ],
   callToAction: {
