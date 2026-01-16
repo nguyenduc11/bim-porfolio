@@ -34,7 +34,7 @@ export const portfolioData = {
         "/images/projects/project02/detail-6.webp"
       ],
       technologies: ["Revit", "Navisworks", "Autodesk Advance Steel", "AutoCAD"],
-      demoUrl: "https://autode.sk/3LldcA7",
+      demoUrl: "https://autode.sk/4jFOZRS",
       codeUrl: null
     },
     {
