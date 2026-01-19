@@ -44,38 +44,18 @@ export default function CertificateCard({ certificate }) {
         <div className="p-6">
           <div className="flex items-center gap-2 mb-4">
             <HiAcademicCap className="w-5 h-5 text-blue-600" />
-            <span className="px-3 py-1 text-sm font-medium bg-blue-100 text-blue-800 rounded-full">
-              {certificate.issuer}
-            </span>
+            {certificate.issuer && (
+              <span className="px-3 py-1 text-sm font-medium bg-blue-100 text-blue-800 rounded-full">
+                {certificate.issuer}
+              </span>
+            )}
             <div className="flex items-center gap-1 text-gray-500 text-sm">
               <HiCalendar className="w-4 h-4" />
               <span>{certificate.issueDate}</span>
             </div>
           </div>
           
-          <h3 className="text-xl font-semibold text-gray-900 mb-2">{certificate.title}</h3>
-          <p className="text-gray-600 mb-4">{certificate.description}</p>
-          
-          {certificate.credentialId && (
-            <div className="mb-4">
-              <span className="text-sm font-medium text-gray-700">Credential ID: </span>
-              <span className="text-sm text-gray-600 font-mono">{certificate.credentialId}</span>
-            </div>
-          )}
-          
-          <div className="mb-6">
-            <h4 className="text-sm font-medium text-gray-700 mb-2">Skills Validated:</h4>
-            <div className="flex flex-wrap gap-2">
-              {certificate.skills.map((skill, index) => (
-                <span 
-                  key={index}
-                  className="px-2 py-1 text-xs font-medium bg-gray-50 text-gray-600 rounded"
-                >
-                  {skill}
-                </span>
-              ))}
-            </div>
-          </div>
+          <h3 className="text-xl font-semibold text-gray-900 mb-6">{certificate.title}</h3>
           
           <div className="flex gap-4">
             <button
@@ -85,17 +65,6 @@ export default function CertificateCard({ certificate }) {
               <HiExternalLink className="w-5 h-5 group-hover:scale-110 transition-transform duration-200" />
               View Certificate
             </button>
-            {certificate.verificationUrl && certificate.verificationUrl !== "#" && (
-              <a
-                href={certificate.verificationUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-2 px-4 py-3 border border-gray-300 rounded-lg text-sm font-medium text-gray-700 bg-white hover:bg-gray-50 transition-colors duration-200"
-              >
-                <HiExternalLink className="w-4 h-4" />
-                Verify
-              </a>
-            )}
           </div>
         </div>
       </div>
