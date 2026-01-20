@@ -35,6 +35,7 @@ export const portfolioData = {
       ],
       technologies: ["Revit", "Navisworks", "Autodesk Advance Steel", "AutoCAD"],
       demoUrl: "https://autode.sk/4jFOZRS",
+      youtubeUrl: "https://youtu.be/Dn-dViyBF9U",
       codeUrl: null
     },
     {
@@ -71,6 +72,7 @@ export const portfolioData = {
       ],
       technologies: ["Revit", "Navisworks", "BIM360", "AutoCAD"],
       demoUrl: "https://autode.sk/4jsiiHn",
+      youtubeUrl: "https://youtu.be/Vk4G2yex8Qw",
       codeUrl: null
     },
     {

@@ -50,7 +50,7 @@ export default function ProjectCard({ project }) {
               ))}
             </div>
           </div>
-          <div className="flex gap-4">
+          <div className="flex flex-wrap gap-4">
             <a
               href={project.demoUrl}
               target="_blank"
@@ -60,6 +60,17 @@ export default function ProjectCard({ project }) {
               <HiExternalLink className="w-5 h-5 group-hover:scale-110 transition-transform duration-200" />
               View Interactive Model
             </a>
+            {project.youtubeUrl && (
+              <a
+                href={project.youtubeUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-3 px-6 py-3 bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white font-semibold rounded-xl shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 text-base group"
+              >
+                <HiExternalLink className="w-5 h-5 group-hover:scale-110 transition-transform duration-200" />
+                Watch on YouTube
+              </a>
+            )}
             {project.codeUrl && (
               <a
                 href={project.codeUrl}
