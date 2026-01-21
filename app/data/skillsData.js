@@ -25,17 +25,7 @@ export const skillsData = {
           name: "Autodesk Advance Steel",
           level: 85,
           description: "Steel structure modeling, connection detailing, and fabrication-ready drawings"
-  },
-  {
-    name: "FrameCAD",
-    level: 80,
-    description: "Light gauge steel framing, panelization, and production-driven modeling"
-  },
-  {
-    name: "Vertex BD",
-    level: 75,
-    description: "Timber and prefabricated structure detailing with manufacturing-level accuracy"
-  },
+        },
         {
           name: "BIM 360",
           level: 85,
