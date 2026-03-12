@@ -9,6 +9,7 @@ export const parametricData = {
       image: "/images/parametric/project01/main.webp",
       images: [
         "/images/parametric/project01/main.webp",
+        "/images/parametric/project01/detail-1.webp",
       ],
       technologies: ["Dynamo", "Revit"],
       demoUrl: "#",
