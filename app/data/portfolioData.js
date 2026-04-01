@@ -16,7 +16,7 @@ export const portfolioData = {
         "/images/projects/project01/detail-5.webp"
       ],
       technologies: ["Revit", "Navisworks", "BIM 360", "AutoCAD"],
-      demoUrl: "https://autode.sk/49Gl6xq",
+      demoUrl: "https://autode.sk/4snosMo",
       codeUrl: null
     },
     {
@@ -34,7 +34,7 @@ export const portfolioData = {
         "/images/projects/project02/detail-6.webp"
       ],
       technologies: ["Revit", "Navisworks", "Autodesk Advance Steel", "AutoCAD"],
-      demoUrl: "https://autode.sk/4jFOZRS",
+      demoUrl: "https://autode.sk/4sreIAU",
       youtubeUrl: "https://youtu.be/Dn-dViyBF9U",
       codeUrl: null
     },
@@ -53,7 +53,7 @@ export const portfolioData = {
         "/images/projects/project03/detail-6.webp"
       ],
       technologies: ["Revit", "AutoCAD", "Navisworks", "Dalux"],
-      demoUrl: "https://autode.sk/3YVBjbR",
+      demoUrl: "https://autode.sk/4st3XxX",
       codeUrl: null
     },
     {
@@ -71,7 +71,7 @@ export const portfolioData = {
         "/images/projects/project04/detail-6.webp"
       ],
       technologies: ["Revit", "Navisworks", "BIM360", "AutoCAD"],
-      demoUrl: "https://autode.sk/4jsiiHn",
+      demoUrl: "https://autode.sk/4rsHvUR",
       youtubeUrl: "https://youtu.be/Vk4G2yex8Qw",
       codeUrl: null
     },
@@ -90,7 +90,7 @@ export const portfolioData = {
         "/images/projects/project05/detail-6.webp"
       ],
       technologies: ["Revit", "SketchUp", "AutoCAD"],
-      demoUrl: "https://autode.sk/4q9qOOg",
+      demoUrl: "https://autode.sk/3OUN3JV",
       codeUrl: null
     },
     {
@@ -108,7 +108,7 @@ export const portfolioData = {
         "/images/projects/project06/detail-6.webp"
       ],
       technologies: ["Revit", "AutoCAD"],
-      demoUrl: "https://autode.sk/49a0FaM",
+      demoUrl: "https://autode.sk/3OOrJ8W",
       codeUrl: null
     },
     {

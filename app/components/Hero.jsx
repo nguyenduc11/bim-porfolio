@@ -40,6 +40,11 @@ const Hero = () => {
                 View Projects
               </button>
             </Link>
+            <Link href="/parametric-design">
+              <button className="group px-10 py-4 border-2 border-gray-900 text-gray-900 rounded-xl hover:bg-gray-900 hover:text-white transition-all duration-300 transform hover:scale-105 hover:shadow-xl w-full sm:w-auto text-lg font-semibold">
+                Parametric Design
+              </button>
+            </Link>
           </div>
           
           {/* Scroll Indicator */}
