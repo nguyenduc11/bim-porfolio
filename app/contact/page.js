@@ -19,7 +19,7 @@ const Contact = () => {
     {
       icon: HiLocationMarker,
       title: "Location",
-      value: "Hoang Mai District, Hanoi, Vietnam",
+      value: "18D Nguyễn Lâm, Phường 6, Quận 10, TP. Hồ Chí Minh",
       link: "#"
     }
   ];
