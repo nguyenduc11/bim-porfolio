@@ -94,9 +94,9 @@ export const portfolioData = {
       codeUrl: null
     },
     {
-      title: "Conceptual Light Gauge Steel (LGS) House",
+      title: "Residential Light Gauge Steel (LGS) House",
       category: "Residential / Low-Rise Housing",
-      description: "Conceptual project showcasing low-rise Light Gauge Steel (LGS) housing modeled in Autodesk Revit.",
+      description: "Low-rise Light Gauge Steel (LGS) housing modeled in Autodesk Revit.",
       image: "/images/projects/project06/main.webp",
       images: [
         "/images/projects/project06/main.webp",
